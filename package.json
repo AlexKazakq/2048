@@ -1,0 +1,10 @@
+{
+  "homepage":"https://alexkazakq.github.io/2048",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
